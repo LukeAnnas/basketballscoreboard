@@ -1,0 +1,95 @@
+@font-face {
+    font-family: digit;
+    src: url(/fonts/CursedTimerULiL.ttf);
+}
+
+*{
+   margin: 0;
+    padding: 0;
+
+
+}
+
+body {
+    text-align: center;
+    background-image: url("/images/basketball.jpg") ;   
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    max-width: 800px;
+    margin: 0 auto;
+    height: 580px;
+    border: 2px solid #5ADBFF;
+    background:#1B244A; 
+    border-radius: 16px;
+    margin-top: 128px;
+}
+
+.column{
+  color: #eeeeee;
+  font-size: 32px;
+  line-height: 50px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+ display: flex;
+align-items: center;
+flex-direction: column;
+margin-top: 64px;
+ }
+
+ .score{
+    background-color: #080001;
+    color: #F94F6D;
+    border: 1px solid #5ADBFF;
+    border-radius: 4px;
+    font-size: 90px;
+    line-height: 127px;
+    width: 150px;
+    height: 120px;
+    text-align: center;
+    padding: 24px;
+    font-family: digit ;
+ }
+
+ .button-container{
+    width: 155px;
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 64px;
+    
+ }
+
+ .btn{
+    border: 2px solid  
+    #9AABD8 ;
+    background: transparent;
+    color: #9AABD8;
+    width: 50px;
+    height: 48px;
+    font-size: 16px;
+    text-align: center;
+ }
+
+ .btn:hover{
+    font-size: 24px;
+    color: black;
+    box-shadow: 1px 1px 5px  #9AABD8;
+    transition: all ease-in .5s;
+ }
+
+ .new-game-btn{
+    border: 3px solid #9AABD8;
+    background:transparent;
+    color: #9AABD8;
+    height: 45px;
+    width: 145px;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: grab;
+    font-weight: bold;
+   
+ }
